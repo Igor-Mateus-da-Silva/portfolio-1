@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Igor Mateus da Silva - Desenvolvedor de Sistemas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Igor Mateus da Silva</h1>
+      <p>Desenvolvedor de Sistemas</p>
+    </header>
+    <nav>
+      <a href="#sobre-mim"><i class="fas fa-user icon"></i>Sobre Mim</a>
+      <a href="#portfolio"><i class="fas fa-briefcase icon"></i>Portfólio</a>
+      <a href="#contato"><i class="fas fa-envelope icon"></i>Contato</a>
+      <a href="#curriculo"><i class="fas fa-file-alt icon"></i>Currículo</a>
+    </nav>
+    <div class="container">
+      <div id="sobre-mim" class="section">
+        <h2><i class="fas fa-user icon"></i>Sobre Mim</h2>
+        <p>
+          Olá! Meu nome é Igor Mateus da Silva, sou Desenvolvedor de Sistemas
+          com experiência em desenvolvimento web e mobile. Sou apaixonado por
+          tecnologia e adoro resolver problemas complexos com soluções simples e
+          eficientes.
+        </p>
+        <p>
+          Conecte-se comigo no
+          <a
+            href="https://linkedin.com/in/igor-mateus-da-silva-721127163"
+            target="_blank"
+            >LinkedIn</a
+          >.
+        </p>
+      </div>
+      <div id="portfolio" class="section">
+        <h2><i class="fas fa-briefcase icon"></i>Portfólio</h2>
+        <p>
+          Confira alguns dos meus projetos no meu
+          <a href="https://github.com/Igor-Mateus-da-Silva" target="_blank"
+            >GitHub</a
+          >.
+        </p>
+        <div class="image-container">
+          <img
+            src="https://via.placeholder.com/300x200?text=Projeto+1"
+            alt="Projeto 1"
+          />
+          <img
+            src="https://via.placeholder.com/300x200?text=Projeto+2"
+            alt="Projeto 2"
+          />
+          <img
+            src="https://via.placeholder.com/300x200?text=Projeto+3"
+            alt="Projeto 3"
+          />
+        </div>
+      </div>
+      <div id="contato" class="section">
+        <h2><i class="fas fa-envelope icon"></i>Contato</h2>
+        <form class="contact-form" onsubmit="return validateForm()">
+          <input type="text" id="name" placeholder="Nome" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <textarea
+            id="message"
+            placeholder="Mensagem"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">
+            <i class="fas fa-paper-plane"></i> Enviar
+          </button>
+        </form>
+      </div>
+      <div id="curriculo" class="section">
+        <h2><i class="fas fa-file-alt icon"></i>Currículo</h2>
+        <p>
+          Para mais detalhes sobre minha experiência profissional e habilidades,
+          faça o download do meu currículo <a href="#">aqui</a>.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Igor Mateus da Silva. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
